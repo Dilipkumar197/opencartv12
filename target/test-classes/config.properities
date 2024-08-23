@@ -1,0 +1,8 @@
+
+execution_env=local
+#execution_env=remote
+appURL=https://tutorialsninja.com/demo/
+email=vdkumar53@gmail.com
+pass=Kumar@12345
+#pass=Kumar@123456
+

@@ -1,0 +1,153 @@
+2024-08-22 10:30:17 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\grid-docker.xml"
+2024-08-22 10:30:18 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\grid-docker.xml
+
+2024-08-22 10:30:19 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 10:30:19 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 10:31:45 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\grid-docker.xml"
+2024-08-22 10:31:46 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\grid-docker.xml
+
+2024-08-22 10:31:47 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 10:31:47 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 10:34:11 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\grid-docker.xml"
+2024-08-22 10:34:13 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\grid-docker.xml
+
+2024-08-22 10:34:44 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 10:34:44 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 10:34:44 INFO  Tc_001Accountregistration:23 - *** clicked on Login button ****
+2024-08-22 10:34:46 INFO  Tc_001Accountregistration:26 - *** providing the user details ****
+2024-08-22 10:34:50 INFO  Tc_001Accountregistration:39 - *** validated the account creation message ****
+2024-08-22 10:34:50 INFO  Tc_001Accountregistration:60 - ***Finished starting account registration test case ****
+2024-08-22 10:34:55 INFO  TC_002Logintest:16 - *** starting Log in test case ****
+2024-08-22 10:34:58 INFO  TC_002Logintest:44 - *** finish Login test case ****
+2024-08-22 10:37:48 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\grid-docker.xml"
+2024-08-22 10:37:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\grid-docker.xml
+
+2024-08-22 10:38:52 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 10:38:52 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 10:38:54 INFO  Tc_001Accountregistration:23 - *** clicked on Login button ****
+2024-08-22 10:38:58 INFO  Tc_001Accountregistration:26 - *** providing the user details ****
+2024-08-22 10:39:06 INFO  Tc_001Accountregistration:39 - *** validated the account creation message ****
+2024-08-22 10:39:09 INFO  Tc_001Accountregistration:60 - ***Finished starting account registration test case ****
+2024-08-22 10:39:29 INFO  TC_002Logintest:16 - *** starting Log in test case ****
+2024-08-22 10:39:32 INFO  TC_002Logintest:44 - *** finish Login test case ****
+2024-08-22 10:40:55 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\grid-docker.xml"
+2024-08-22 10:42:11 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\grid-docker.xml"
+2024-08-22 10:42:14 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\grid-docker.xml
+
+2024-08-22 10:42:42 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 10:42:42 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 10:42:44 INFO  Tc_001Accountregistration:23 - *** clicked on Login button ****
+2024-08-22 10:42:51 INFO  Tc_001Accountregistration:26 - *** providing the user details ****
+2024-08-22 10:43:10 INFO  Tc_001Accountregistration:39 - *** validated the account creation message ****
+2024-08-22 10:43:12 INFO  Tc_001Accountregistration:60 - ***Finished starting account registration test case ****
+2024-08-22 10:43:22 INFO  TC_002Logintest:16 - *** starting Log in test case ****
+2024-08-22 10:43:29 INFO  TC_002Logintest:44 - *** finish Login test case ****
+2024-08-22 10:44:30 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 10:44:30 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 10:44:32 INFO  Tc_001Accountregistration:23 - *** clicked on Login button ****
+2024-08-22 10:44:34 INFO  Tc_001Accountregistration:26 - *** providing the user details ****
+2024-08-22 10:44:37 INFO  Tc_001Accountregistration:39 - *** validated the account creation message ****
+2024-08-22 10:44:38 INFO  Tc_001Accountregistration:60 - ***Finished starting account registration test case ****
+2024-08-22 10:45:02 INFO  TC_002Logintest:16 - *** starting Log in test case ****
+2024-08-22 10:45:06 INFO  TC_002Logintest:44 - *** finish Login test case ****
+2024-08-22 10:58:33 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\grid-docker.xml"
+2024-08-22 10:58:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\grid-docker.xml
+
+2024-08-22 10:59:30 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 10:59:30 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 10:59:34 INFO  Tc_001Accountregistration:23 - *** clicked on Login button ****
+2024-08-22 10:59:42 INFO  Tc_001Accountregistration:26 - *** providing the user details ****
+2024-08-22 10:59:56 INFO  Tc_001Accountregistration:39 - *** validated the account creation message ****
+2024-08-22 10:59:57 INFO  Tc_001Accountregistration:60 - ***Finished starting account registration test case ****
+2024-08-22 11:00:14 INFO  TC_002Logintest:16 - *** starting Log in test case ****
+2024-08-22 11:00:20 INFO  TC_002Logintest:44 - *** finish Login test case ****
+2024-08-22 11:01:11 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 11:01:11 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 11:01:12 INFO  Tc_001Accountregistration:23 - *** clicked on Login button ****
+2024-08-22 11:01:15 INFO  Tc_001Accountregistration:26 - *** providing the user details ****
+2024-08-22 11:01:20 INFO  Tc_001Accountregistration:39 - *** validated the account creation message ****
+2024-08-22 11:01:21 INFO  Tc_001Accountregistration:60 - ***Finished starting account registration test case ****
+2024-08-22 11:01:46 INFO  TC_002Logintest:16 - *** starting Log in test case ****
+2024-08-22 11:01:52 INFO  TC_002Logintest:44 - *** finish Login test case ****
+2024-08-22 11:22:48 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
+2024-08-22 11:27:06 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
+2024-08-22 11:27:40 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
+2024-08-22 11:27:41 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
+
+2024-08-22 11:28:34 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\crossbrowsertesting.xml"
+2024-08-22 11:28:35 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\crossbrowsertesting.xml
+
+2024-08-22 11:29:07 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\Grouping.xml"
+2024-08-22 11:29:08 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\Grouping.xml
+
+2024-08-22 11:30:20 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
+2024-08-22 11:30:20 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
+
+2024-08-22 11:30:34 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 11:30:34 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 11:30:34 INFO  Tc_001Accountregistration:23 - *** clicked on Login button ****
+2024-08-22 11:30:35 INFO  Tc_001Accountregistration:26 - *** providing the user details ****
+2024-08-22 11:30:41 INFO  Tc_001Accountregistration:39 - *** validated the account creation message ****
+2024-08-22 11:30:41 INFO  Tc_001Accountregistration:60 - ***Finished starting account registration test case ****
+2024-08-22 11:30:50 INFO  TC_002Logintest:16 - *** starting Log in test case ****
+2024-08-22 11:30:59 INFO  TC_002Logintest:16 - *** starting Log in test case ****
+2024-08-22 11:31:02 INFO  TC_002Logintest:44 - *** finish Login test case ****
+2024-08-22 11:31:04 INFO  TC_002Logintest:44 - *** finish Login test case ****
+2024-08-22 11:31:58 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 11:31:58 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 11:32:00 INFO  Tc_001Accountregistration:23 - *** clicked on Login button ****
+2024-08-22 11:32:01 INFO  Tc_001Accountregistration:26 - *** providing the user details ****
+2024-08-22 11:32:08 INFO  Tc_001Accountregistration:39 - *** validated the account creation message ****
+2024-08-22 11:32:09 INFO  Tc_001Accountregistration:60 - ***Finished starting account registration test case ****
+2024-08-22 11:32:28 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 11:32:29 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 11:32:29 INFO  Tc_001Accountregistration:23 - *** clicked on Login button ****
+2024-08-22 11:32:30 INFO  Tc_001Accountregistration:26 - *** providing the user details ****
+2024-08-22 11:32:33 INFO  Tc_001Accountregistration:39 - *** validated the account creation message ****
+2024-08-22 11:32:33 INFO  Tc_001Accountregistration:60 - ***Finished starting account registration test case ****
+2024-08-22 11:34:06 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 11:34:06 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 11:34:07 INFO  Tc_001Accountregistration:23 - *** clicked on Login button ****
+2024-08-22 11:34:08 INFO  Tc_001Accountregistration:26 - *** providing the user details ****
+2024-08-22 11:34:11 INFO  Tc_001Accountregistration:39 - *** validated the account creation message ****
+2024-08-22 11:34:11 INFO  Tc_001Accountregistration:60 - ***Finished starting account registration test case ****
+2024-08-22 11:35:12 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
+2024-08-22 11:35:13 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
+
+2024-08-22 11:35:21 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 11:35:21 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 11:35:21 INFO  Tc_001Accountregistration:23 - *** clicked on Login button ****
+2024-08-22 11:35:21 INFO  Tc_001Accountregistration:26 - *** providing the user details ****
+2024-08-22 11:35:24 INFO  Tc_001Accountregistration:39 - *** validated the account creation message ****
+2024-08-22 11:35:24 INFO  Tc_001Accountregistration:60 - ***Finished starting account registration test case ****
+2024-08-22 11:35:29 INFO  TC_002Logintest:16 - *** starting Log in test case ****
+2024-08-22 11:35:31 INFO  TC_002Logintest:44 - *** finish Login test case ****
+2024-08-22 11:36:10 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
+2024-08-22 11:36:20 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 11:36:20 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 11:36:21 INFO  Tc_001Accountregistration:23 - *** clicked on Login button ****
+2024-08-22 11:36:22 INFO  Tc_001Accountregistration:26 - *** providing the user details ****
+2024-08-22 11:36:24 INFO  Tc_001Accountregistration:39 - *** validated the account creation message ****
+2024-08-22 11:36:24 INFO  Tc_001Accountregistration:60 - ***Finished starting account registration test case ****
+2024-08-22 11:36:29 INFO  TC_002Logintest:16 - *** starting Log in test case ****
+2024-08-22 11:36:34 INFO  TC_002Logintest:44 - *** finish Login test case ****
+2024-08-22 11:57:16 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
+2024-08-22 11:57:23 INFO  Tc_001Accountregistration:17 - *** starting account registration test case ****
+2024-08-22 11:57:23 INFO  Tc_001Accountregistration:20 - *** clicked on My account button ****
+2024-08-22 11:57:24 INFO  Tc_001Accountregistration:23 - *** clicked on Login button ****
+2024-08-22 11:57:25 INFO  Tc_001Accountregistration:26 - *** providing the user details ****
+2024-08-22 11:57:28 INFO  Tc_001Accountregistration:39 - *** validated the account creation message ****
+2024-08-22 11:57:28 INFO  Tc_001Accountregistration:60 - ***Finished starting account registration test case ****
+2024-08-22 11:57:33 INFO  TC_002Logintest:16 - *** starting Log in test case ****
+2024-08-22 11:57:35 INFO  TC_002Logintest:44 - *** finish Login test case ****
