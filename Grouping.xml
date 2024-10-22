@@ -24,6 +24,12 @@
 		
       <class name="testCases.TC_002Logintest"/>
       <class name="testCases.Tc_001Accountregistration"/>
+      <class name="testCases.Tc_004Logouttest"/>
+      <class name="testCases.Tc_005Forgotpassword"/>
+      <class name="testCases.Tc_006Searchproduct"/>
+      <class name="testCases.TC_007Productcomparsionpage"/>
+      <class name="testCases.TC_008Wishlistpage"/>
+        <class name="testCases.TC_009Shoppingcarttest"/>
       
       <!--<class name="testCases.Tc_003LoginTestDDT"/>-->
       

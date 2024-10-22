@@ -121,7 +121,7 @@ public class Baseclass {
 	
 	  @AfterClass(groups = {"Master", "Regression"})
 	     
-	     public void teardown() {
+	    public void teardown() {
 	    	 
 	    	 driver.quit();
 	    	 
