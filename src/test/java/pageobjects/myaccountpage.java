@@ -16,6 +16,9 @@ public class myaccountpage extends Basepage {
 	
 	@FindBy(xpath = "//div[@class='list-group']//a[text()='Logout']")
 	public WebElement btnlogout;
+	
+	@FindBy(xpath = "//a[normalize-space()='Password']")
+	public WebElement txtpassword;
 
 	public boolean ismyaccountpageexists() {
 
@@ -32,6 +35,11 @@ public class myaccountpage extends Basepage {
 	public void clickonlogout() {
 
 		btnlogout.click();
+	}
+	
+	public void lnkpassword() {
+
+		txtpassword.click();
 	}
 
 }

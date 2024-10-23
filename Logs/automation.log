@@ -1,85 +1,23 @@
-2024-10-21 10:31:11 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
-2024-10-21 10:31:12 INFO  Utils:112 - [TestNG] Running:
+2024-10-23 11:24:47 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
+2024-10-23 11:24:48 INFO  Utils:112 - [TestNG] Running:
   C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
 
-2024-10-21 10:31:23 INFO  TC_007Productcomparsionpage:18 - *** starting product comparsion test case ****
-2024-10-21 10:31:27 INFO  TC_007Productcomparsionpage:54 - *** finish product comparsion test case ****
-2024-10-21 10:39:02 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
-2024-10-21 10:39:03 INFO  Utils:112 - [TestNG] Running:
+2024-10-23 11:24:59 INFO  Tc_010Changepasswordtest:19 - *** starting changepassword test case ****
+2024-10-23 11:28:15 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
+2024-10-23 11:28:15 INFO  Utils:112 - [TestNG] Running:
   C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
 
-2024-10-21 10:39:08 INFO  TC_007Productcomparsionpage:18 - *** starting product comparsion test case ****
-2024-10-21 10:39:12 INFO  TC_007Productcomparsionpage:55 - *** finish product comparsion test case ****
-2024-10-21 11:04:34 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
-2024-10-21 11:04:35 INFO  Utils:112 - [TestNG] Running:
+2024-10-23 11:28:23 INFO  Tc_010Changepasswordtest:19 - *** starting changepassword test case ****
+2024-10-23 11:28:36 INFO  Tc_010Changepasswordtest:75 - *** finish changepassword test case ****
+2024-10-23 11:33:03 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
+2024-10-23 11:33:03 INFO  Utils:112 - [TestNG] Running:
   C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
 
-2024-10-21 11:04:45 INFO  Tc_008Wishlistpage:19 - *** starting Wishlist test case ****
-2024-10-21 11:04:49 INFO  Tc_008Wishlistpage:57 - *** finish wishlist test case ****
-2024-10-21 11:32:36 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIPK~1\AppData\Local\Temp\testng-eclipse-478183569\testng-customsuite.xml"
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 10 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 25 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\DILIP KUMAR\AppData\Local\Temp\testng-eclipse-478183569\testng-customsuite.xml
-
-2024-10-21 11:32:37 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 20 ms.
-2024-10-21 11:32:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@aec50a1: 78 ms
-2024-10-21 11:32:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@32f61a31: 287 ms
-2024-10-21 11:32:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@329a1243: 29 ms
-2024-10-21 11:32:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@588ab592: 43 ms
-2024-10-21 11:32:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2c444798: 17 ms
-2024-10-21 11:32:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6d1310f6: 6 ms
-2024-10-21 11:32:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3228d990: 0 ms
-2024-10-21 11:32:56 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
-2024-10-21 11:32:57 INFO  Utils:112 - [TestNG] Running:
+2024-10-23 11:33:09 INFO  Tc_010Changepasswordtest:19 - *** starting changepassword test case ****
+2024-10-23 11:33:21 INFO  Tc_010Changepasswordtest:75 - *** finish changepassword test case ****
+2024-10-23 11:48:59 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
+2024-10-23 11:49:00 INFO  Utils:112 - [TestNG] Running:
   C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
 
-2024-10-21 11:33:06 INFO  Tc_009Shoppingcarttest:20 - *** starting shoppingpage test case ****
-2024-10-21 11:35:35 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
-2024-10-21 11:35:36 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
-
-2024-10-21 11:35:43 INFO  Tc_009Shoppingcarttest:20 - *** starting shoppingpage test case ****
-2024-10-21 11:37:05 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
-2024-10-21 11:37:05 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
-
-2024-10-21 11:37:12 INFO  Tc_009Shoppingcarttest:20 - *** starting shoppingpage test case ****
-2024-10-21 11:38:21 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
-2024-10-21 11:38:22 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
-
-2024-10-21 11:38:28 INFO  Tc_009Shoppingcarttest:20 - *** starting shoppingpage test case ****
-2024-10-21 11:44:02 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
-2024-10-21 11:44:03 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
-
-2024-10-21 11:44:10 INFO  Tc_009Shoppingcarttest:20 - *** starting shoppingpage test case ****
+2024-10-23 11:49:07 INFO  Tc_010Changepasswordtest:19 - *** starting changepassword test case ****
+2024-10-23 11:49:11 INFO  Tc_010Changepasswordtest:76 - *** finish changepassword test case ****

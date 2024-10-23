@@ -8,13 +8,13 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.Tc_009Shoppingcarttest">
+      <class name="testCases.Tc_010Changepasswordtest">
         <methods>
           <include name="setup"/>
-          <include name="verifyshoppingpage"/>
+          <include name="verifychangepassword"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- testCases.Tc_009Shoppingcarttest -->
+      </class> <!-- testCases.Tc_010Changepasswordtest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master suite] -->

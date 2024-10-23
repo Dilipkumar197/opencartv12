@@ -30,6 +30,7 @@
       <class name="testCases.TC_007Productcomparsionpage"/>
       <class name="testCases.TC_008Wishlistpage"/>
         <class name="testCases.TC_009Shoppingcarttest"/>
+        <class name="testCases.TC_010Shoppingcarttest"/>
       
       <!--<class name="testCases.Tc_003LoginTestDDT"/>-->
       
