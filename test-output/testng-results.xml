@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-23T11:49:00 IST" name="Master suite" finished-at="2024-10-23T11:49:12 IST" duration-ms="11723">
+  <suite started-at="2024-11-07T11:08:52 IST" name="Master suite" finished-at="2024-11-07T11:09:12 IST" duration-ms="20504">
     <groups>
       <group name="Master">
-        <method signature="Tc_010Changepasswordtest.verifychangepassword()[pri:0, instance:testCases.Tc_010Changepasswordtest@2f162cc0]" name="verifychangepassword" class="testCases.Tc_010Changepasswordtest"/>
+        <method signature="Tc_013Productreturntest.verifyproductreturn()[pri:0, instance:testCases.Tc_013Productreturntest@72f46e16]" name="verifyproductreturn" class="testCases.Tc_013Productreturntest"/>
       </group> <!-- Master -->
     </groups>
-    <test started-at="2024-10-23T11:49:00 IST" name="Test" finished-at="2024-10-23T11:49:12 IST" duration-ms="11723">
-      <class name="testCases.Tc_010Changepasswordtest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.Tc_010Changepasswordtest@2f162cc0]" started-at="2024-10-23T11:49:01 IST" name="setup" finished-at="2024-10-23T11:49:07 IST" duration-ms="6523" status="PASS">
+    <test started-at="2024-11-07T11:08:52 IST" name="Test" finished-at="2024-11-07T11:09:12 IST" duration-ms="20504">
+      <class name="testCases.Tc_013Productreturntest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.Tc_013Productreturntest@72f46e16]" started-at="2024-11-07T11:08:53 IST" name="setup" finished-at="2024-11-07T11:09:06 IST" duration-ms="13456" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifychangepassword()[pri:0, instance:testCases.Tc_010Changepasswordtest@2f162cc0]" started-at="2024-10-23T11:49:07 IST" name="verifychangepassword" finished-at="2024-10-23T11:49:11 IST" duration-ms="3930" status="PASS">
+        <test-method signature="verifyproductreturn()[pri:0, instance:testCases.Tc_013Productreturntest@72f46e16]" started-at="2024-11-07T11:09:06 IST" name="verifyproductreturn" finished-at="2024-11-07T11:09:12 IST" duration-ms="6311" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifychangepassword -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Tc_010Changepasswordtest@2f162cc0]" started-at="2024-10-23T11:49:11 IST" name="teardown" finished-at="2024-10-23T11:49:12 IST" duration-ms="447" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testCases.Tc_010Changepasswordtest -->
+        </test-method> <!-- verifyproductreturn -->
+      </class> <!-- testCases.Tc_013Productreturntest -->
     </test> <!-- Test -->
   </suite> <!-- Master suite -->
 </testng-results>

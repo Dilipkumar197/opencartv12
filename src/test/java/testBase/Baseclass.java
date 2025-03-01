@@ -119,14 +119,17 @@ public class Baseclass {
 	
 	}
 	
-	  @AfterClass(groups = {"Master", "Regression"})
+/*	 @AfterClass(groups = {"Master", "Regression"})
 	     
 	    public void teardown() {
 	    	 
-	    	 driver.quit();
+	     driver.quit();
 	    	 
 	     }
+
+*/
 	  	
+
 	  
 	  public String randomeString() {
 		  

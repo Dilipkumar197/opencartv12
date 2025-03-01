@@ -19,6 +19,12 @@ public class myaccountpage extends Basepage {
 	
 	@FindBy(xpath = "//a[normalize-space()='Password']")
 	public WebElement txtpassword;
+	
+	@FindBy(xpath = "//a[normalize-space()='Edit Account']")
+	public WebElement Lnkeditaccount;
+	
+	@FindBy(xpath = "//a[@class='list-group-item'][normalize-space()='Order History']")
+	public WebElement Lnkorderhistory;
 
 	public boolean ismyaccountpageexists() {
 
@@ -40,6 +46,18 @@ public class myaccountpage extends Basepage {
 	public void lnkpassword() {
 
 		txtpassword.click();
+	}
+	
+	public void lnkeditaccount() {
+
+		Lnkeditaccount.click();
+
+	}
+	
+	public void clickonorderhistorylink() {
+
+		Lnkorderhistory.click();
+
 	}
 
 }

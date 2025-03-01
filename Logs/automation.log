@@ -1,23 +1,8 @@
-2024-10-23 11:24:47 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
-2024-10-23 11:24:48 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
-
-2024-10-23 11:24:59 INFO  Tc_010Changepasswordtest:19 - *** starting changepassword test case ****
-2024-10-23 11:28:15 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
-2024-10-23 11:28:15 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
-
-2024-10-23 11:28:23 INFO  Tc_010Changepasswordtest:19 - *** starting changepassword test case ****
-2024-10-23 11:28:36 INFO  Tc_010Changepasswordtest:75 - *** finish changepassword test case ****
-2024-10-23 11:33:03 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
-2024-10-23 11:33:03 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
-
-2024-10-23 11:33:09 INFO  Tc_010Changepasswordtest:19 - *** starting changepassword test case ****
-2024-10-23 11:33:21 INFO  Tc_010Changepasswordtest:75 - *** finish changepassword test case ****
-2024-10-23 11:48:59 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
-2024-10-23 11:49:00 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml
-
-2024-10-23 11:49:07 INFO  Tc_010Changepasswordtest:19 - *** starting changepassword test case ****
-2024-10-23 11:49:11 INFO  Tc_010Changepasswordtest:76 - *** finish changepassword test case ****
+2025-03-01 18:29:19 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
+2025-03-01 18:29:46 INFO  Tc_013Productreturntest:21 - *** starting product return  test case ****
+2025-03-01 18:29:54 INFO  Tc_013Productreturntest:87 - *** finish product returntest case ****
+2025-03-01 20:39:41 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DILIP KUMAR\eclipse-workspace\OpencartV\master.xml"
+2025-03-01 20:40:04 INFO  Tc_012Orderhistorytest:18 - *** starting Orderhistory test case ****
+2025-03-01 20:40:13 INFO  Tc_012Orderhistorytest:50 - *** finish Orderhistory test case ****
+2025-03-01 20:40:28 INFO  Tc_013Productreturntest:21 - *** starting product return  test case ****
+2025-03-01 20:40:35 INFO  Tc_013Productreturntest:87 - *** finish product returntest case ****

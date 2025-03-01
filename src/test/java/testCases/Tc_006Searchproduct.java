@@ -38,6 +38,7 @@ public class Tc_006Searchproduct extends Baseclass {
 			sp.clickonproduct();
 			sp.clickonaddtocart();
 			//sp.clickonitemscart();
+			 
 
 		}
 
