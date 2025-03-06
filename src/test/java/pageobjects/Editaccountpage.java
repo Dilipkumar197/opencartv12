@@ -31,7 +31,8 @@ public class Editaccountpage extends Basepage {
 	
 
 	public void clickonfirstname(String fname) {
-
+		
+        txtfirstname.clear();
 		txtfirstname.sendKeys(fname);
 		
 
@@ -39,6 +40,7 @@ public class Editaccountpage extends Basepage {
 
 	public void clickonlastname(String lname) {
 
+		txtlastname.clear();
 		txtlastname.sendKeys(lname);
 		
 	}
@@ -47,7 +49,8 @@ public class Editaccountpage extends Basepage {
 
 	public void clickontelephone(String phonenum) {
 
-		txtemail.sendKeys(phonenum);
+		txttelephone.clear();
+		txttelephone.sendKeys(phonenum);
 		
 
 	}
@@ -65,5 +68,6 @@ public class Editaccountpage extends Basepage {
 		
 
 	}
+	
 
 }

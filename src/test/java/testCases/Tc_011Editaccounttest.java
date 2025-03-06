@@ -27,10 +27,10 @@ public class Tc_011Editaccounttest extends Baseclass {
 
 			// Login
 			Loginpage lp = new Loginpage(driver);
-			lp.clickonemailadress(p.getProperty("email"));
-			lp.clickonpassword(p.getProperty("pass"));
+			lp.clickonemailadress("Saikrishna1996@gmail.com");
+			lp.clickonpassword("Saikrishna1996");
 			lp.clickonlogin();
-
+			Thread.sleep(5000);
 			// Myaccount
 			myaccountpage myacct = new myaccountpage(driver);
 			myacct.lnkeditaccount();
@@ -39,9 +39,9 @@ public class Tc_011Editaccounttest extends Baseclass {
 		
 			//editaccountpage
 			Editaccountpage ea = new Editaccountpage(driver);
-			ea.clickonfirstname(randomeString().toUpperCase());
-			ea.clickonlastname(randomeString().toUpperCase());
-			ea.clickontelephone(randomeNumber());;
+			ea.clickonfirstname("Saimahesh");
+			ea.clickonlastname("Kumar");
+			ea.clickontelephone("8989787868");;
 		    ea.clickoncontinue();
 			
 			

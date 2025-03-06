@@ -4,17 +4,16 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="chrome(failed)">
+  <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.Tc_001Accountregistration">
+      <class name="testCases.Tc_009Shoppingcarttest">
         <methods>
-          <include name="verfiyacctregsiter"/>
           <include name="setup"/>
-          <include name="teardown"/>
+          <include name="verifyshoppingpage"/>
         </methods>
-      </class> <!-- testCases.Tc_001Accountregistration -->
+      </class> <!-- testCases.Tc_009Shoppingcarttest -->
     </classes>
-  </test> <!-- chrome(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
