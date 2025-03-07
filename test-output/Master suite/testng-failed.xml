@@ -8,13 +8,18 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.Tc_013Productreturntest">
+      <class name="testCases.TC_007Productcomparsionpage">
         <methods>
-          <include name="verifyproductreturn"/>
+          <include name="verifyproductcomparsionpage"/>
           <include name="setup"/>
-          <include name="teardown"/>
         </methods>
-      </class> <!-- testCases.Tc_013Productreturntest -->
+      </class> <!-- testCases.TC_007Productcomparsionpage -->
+      <class name="testCases.Tc_009Shoppingcarttest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyshoppingpage"/>
+        </methods>
+      </class> <!-- testCases.Tc_009Shoppingcarttest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master suite] -->

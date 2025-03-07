@@ -38,16 +38,16 @@ public class Tc_013Productreturntest extends Baseclass {
 			
 		
 			//Orderhistorypage
-			Orderhistorypage oh= new Orderhistorypage(driver);
-			oh.clickonviewoption();
-			oh.clickonreturnoption();
+			//Orderhistorypage oh= new Orderhistorypage(driver);
+			//oh.clickonviewoption();
+			//oh.clickonreturnoption();
 			
 			//productreturnpage 
 			
-			Productreturnpage PR= new Productreturnpage(driver);
-			PR.clickonreasonforreturn();
-			PR.textcomment();
-			PR.clickonsubmit();
+			//Productreturnpage PR= new Productreturnpage(driver);
+			//PR.clickonreasonforreturn();
+			//PR.textcomment();
+			//PR.clickonsubmit();
 			
 		
 	

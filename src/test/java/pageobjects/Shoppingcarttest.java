@@ -15,7 +15,7 @@ public class Shoppingcarttest extends Basepage {
 	@FindBy(xpath = "//div[@class='product-layout product-grid col-lg-3 col-md-3 col-sm-6 col-xs-12']//button[1]")
 	public WebElement Lnkaddtocart;
 	
-	@FindBy(xpath = "//a[normalize-space()='shopping cart']")
+	@FindBy(xpath ="//a[normalize-space()='shopping cart']")
 	public WebElement Lnkshoppingcart;
 	
 	public void clickonaddtocart() {

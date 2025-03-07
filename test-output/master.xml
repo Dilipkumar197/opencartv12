@@ -24,8 +24,6 @@
      
     <class name="testCases.TC_002Logintest"/>
     
- <!-- <class name="testCases.Tc_003LoginTestDDT"/> -->
-    
     <class name="testCases.Tc_004Logouttest"/>
      
    <class name="testCases.Tc_005Forgotpassword"/>
@@ -38,13 +36,11 @@
      
         <class name="testCases.Tc_009Shoppingcarttest"/> 
       
-   <!--   <class name="testCases.Tc_010Changepasswordtest"/>  -->
-      
          <class name="testCases.Tc_011Editaccounttest"/> 
          
         <class name="testCases.Tc_012Orderhistorytest"/>
          
-       <!--   <class name="testCases.Tc_013Productreturntest"/>  -->
+    
          
          
     </classes>
