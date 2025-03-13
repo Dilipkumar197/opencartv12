@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/2/7</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 07 10:46:48 IST 2025</td>
+<td>Started on:</td><td>Thu Mar 13 11:52:58 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>150 seconds (150367 ms)</td>
+<tr><td>Total time:</td><td>94 seconds (94265 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,1007 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC_007Productcomparsionpage.setup()'><b>setup</b><br>Test class: testCases.TC_007Productcomparsionpage<br>Parameters: windows, chrome</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace957683143", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace957683143'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_007Productcomparsionpage@663411de</td></tr>
+<tr>
+<td title='testCases.Tc_008Wishlistpage.setup()'><b>setup</b><br>Test class: testCases.Tc_008Wishlistpage<br>Parameters: windows, chrome</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace192318053", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace192318053'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+</pre></div></td>
+<td>0</td>
+<td>testCases.Tc_008Wishlistpage@63dd899</td></tr>
+<tr>
+<td title='testCases.Tc_005Forgotpassword.setup()'><b>setup</b><br>Test class: testCases.Tc_005Forgotpassword<br>Parameters: windows, chrome</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2100728289", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2100728289'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+</pre></div></td>
+<td>0</td>
+<td>testCases.Tc_005Forgotpassword@44b3606b</td></tr>
+<tr>
+<td title='testCases.Tc_011Editaccounttest.setup()'><b>setup</b><br>Test class: testCases.Tc_011Editaccounttest<br>Parameters: windows, chrome</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace421135185", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace421135185'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+</pre></div></td>
+<td>0</td>
+<td>testCases.Tc_011Editaccounttest@59d2400d</td></tr>
+<tr>
+<td title='testCases.Tc_004Logouttest.setup()'><b>setup</b><br>Test class: testCases.Tc_004Logouttest<br>Parameters: windows, chrome</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1312250810", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1312250810'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+</pre></div></td>
+<td>0</td>
+<td>testCases.Tc_004Logouttest@2cc44ad</td></tr>
+<tr>
+<td title='testCases.Tc_006Searchproduct.setup()'><b>setup</b><br>Test class: testCases.Tc_006Searchproduct<br>Parameters: windows, chrome</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace458385820", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace458385820'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+</pre></div></td>
+<td>0</td>
+<td>testCases.Tc_006Searchproduct@1477089c</td></tr>
+<tr>
+<td title='testCases.Tc_012Orderhistorytest.setup()'><b>setup</b><br>Test class: testCases.Tc_012Orderhistorytest<br>Parameters: windows, chrome</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1629292387", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1629292387'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+</pre></div></td>
+<td>0</td>
+<td>testCases.Tc_012Orderhistorytest@75cd8043</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.Tc_003LoginTestDDT.verifyloginDDT()'><b>verifyloginDDT</b><br>Test class: testCases.Tc_003LoginTestDDT<br>Parameters: abc123@gmail.com, test@123, Valid</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testCases.Tc_003LoginTestDDT.verifyloginDDT(Tc_003LoginTestDDT.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1299206418", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1299206418'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testCases.Tc_003LoginTestDDT.verifyloginDDT(Tc_003LoginTestDDT.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>11</td>
+<td>testCases.Tc_003LoginTestDDT@62e20a76</td></tr>
+<tr>
+<td title='testCases.Tc_003LoginTestDDT.verifyloginDDT()'><b>verifyloginDDT</b><br>Test class: testCases.Tc_003LoginTestDDT<br>Parameters: lakshmi@yahoo.com, Laxmi, Valid</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testCases.Tc_003LoginTestDDT.verifyloginDDT(Tc_003LoginTestDDT.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1579356102", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1579356102'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testCases.Tc_003LoginTestDDT.verifyloginDDT(Tc_003LoginTestDDT.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>12</td>
+<td>testCases.Tc_003LoginTestDDT@62e20a76</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,50 +1077,938 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.Tc_008Wishlistpage.verifywishlistpage()'><b>verifywishlistpage</b><br>Test class: testCases.Tc_008Wishlistpage</td>
-<td></td>
-<td>6</td>
-<td>testCases.Tc_008Wishlistpage@24faea88</td></tr>
-<tr>
-<td title='testCases.Tc_012Orderhistorytest.verifyorderhistory()'><b>verifyorderhistory</b><br>Test class: testCases.Tc_012Orderhistorytest</td>
-<td></td>
-<td>4</td>
-<td>testCases.Tc_012Orderhistorytest@64beebb7</td></tr>
-<tr>
-<td title='testCases.Tc_006Searchproduct.verifyaddtocart()'><b>verifyaddtocart</b><br>Test class: testCases.Tc_006Searchproduct</td>
-<td></td>
-<td>7</td>
-<td>testCases.Tc_006Searchproduct@6d366c9b</td></tr>
-<tr>
-<td title='testCases.TC_007Productcomparsionpage.verifyproductcomparsionpage()'><b>verifyproductcomparsionpage</b><br>Test class: testCases.TC_007Productcomparsionpage</td>
-<td></td>
-<td>6</td>
-<td>testCases.TC_007Productcomparsionpage@5b58ed3c</td></tr>
-<tr>
 <td title='testCases.Tc_001Accountregistration.verfiyacctregsiter()'><b>verfiyacctregsiter</b><br>Test class: testCases.Tc_001Accountregistration</td>
 <td></td>
+<td>2</td>
+<td>testCases.Tc_001Accountregistration@628c4ac0</td></tr>
+<tr>
+<td title='testCases.Tc_003LoginTestDDT.verifyloginDDT()'><b>verifyloginDDT</b><br>Test class: testCases.Tc_003LoginTestDDT<br>Parameters: , King@123, Invalid</td>
+<td></td>
+<td>11</td>
+<td>testCases.Tc_003LoginTestDDT@62e20a76</td></tr>
+<tr>
+<td title='testCases.Tc_003LoginTestDDT.verifyloginDDT()'><b>verifyloginDDT</b><br>Test class: testCases.Tc_003LoginTestDDT<br>Parameters: laksh@yahoo.com, Lakshmi, Valid</td>
+<td></td>
 <td>5</td>
-<td>testCases.Tc_001Accountregistration@3efe7086</td></tr>
+<td>testCases.Tc_003LoginTestDDT@62e20a76</td></tr>
 <tr>
-<td title='testCases.Tc_005Forgotpassword.verifyforgotpassword()'><b>verifyforgotpassword</b><br>Test class: testCases.Tc_005Forgotpassword</td>
+<td title='testCases.Tc_003LoginTestDDT.verifyloginDDT()'><b>verifyloginDDT</b><br>Test class: testCases.Tc_003LoginTestDDT<br>Parameters: pavanoltraining@gmail.com, test@123, Valid</td>
 <td></td>
-<td>4</td>
-<td>testCases.Tc_005Forgotpassword@3185fa6b</td></tr>
+<td>8</td>
+<td>testCases.Tc_003LoginTestDDT@62e20a76</td></tr>
 <tr>
-<td title='testCases.Tc_004Logouttest.verifylogout()'><b>verifylogout</b><br>Test class: testCases.Tc_004Logouttest</td>
+<td title='testCases.Tc_003LoginTestDDT.verifyloginDDT()'><b>verifyloginDDT</b><br>Test class: testCases.Tc_003LoginTestDDT<br>Parameters: laks@yahoo.com, xyz, Invalid</td>
 <td></td>
-<td>3</td>
-<td>testCases.Tc_004Logouttest@7651218e</td></tr>
+<td>11</td>
+<td>testCases.Tc_003LoginTestDDT@62e20a76</td></tr>
 <tr>
 <td title='testCases.TC_002Logintest.verifylogin()'><b>verifylogin</b><br>Test class: testCases.TC_002Logintest</td>
 <td></td>
 <td>2</td>
-<td>testCases.TC_002Logintest@45be7cd5</td></tr>
+<td>testCases.TC_002Logintest@56f0cc85</td></tr>
+<tr>
+<td title='testCases.Tc_003LoginTestDDT.verifyloginDDT()'><b>verifyloginDDT</b><br>Test class: testCases.Tc_003LoginTestDDT<br>Parameters: King123@gmail.com, , Invalid</td>
+<td></td>
+<td>11</td>
+<td>testCases.Tc_003LoginTestDDT@62e20a76</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.Tc_006Searchproduct.verifyaddtocart()'><b>verifyaddtocart</b><br>Test class: testCases.Tc_006Searchproduct</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace622690269", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace622690269'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+</pre></div></td>
+<td>0</td>
+<td>testCases.Tc_006Searchproduct@1477089c</td></tr>
+<tr>
+<td title='testCases.Tc_008Wishlistpage.verifywishlistpage()'><b>verifywishlistpage</b><br>Test class: testCases.Tc_008Wishlistpage</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1822115007", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1822115007'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+</pre></div></td>
+<td>0</td>
+<td>testCases.Tc_008Wishlistpage@63dd899</td></tr>
+<tr>
+<td title='testCases.Tc_012Orderhistorytest.verifyorderhistory()'><b>verifyorderhistory</b><br>Test class: testCases.Tc_012Orderhistorytest</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace104912388", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace104912388'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+</pre></div></td>
+<td>0</td>
+<td>testCases.Tc_012Orderhistorytest@75cd8043</td></tr>
+<tr>
+<td title='testCases.Tc_004Logouttest.verifylogout()'><b>verifylogout</b><br>Test class: testCases.Tc_004Logouttest</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace321192242", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace321192242'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+</pre></div></td>
+<td>0</td>
+<td>testCases.Tc_004Logouttest@2cc44ad</td></tr>
+<tr>
+<td title='testCases.Tc_005Forgotpassword.verifyforgotpassword()'><b>verifyforgotpassword</b><br>Test class: testCases.Tc_005Forgotpassword</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2059316201", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2059316201'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+</pre></div></td>
+<td>0</td>
+<td>testCases.Tc_005Forgotpassword@44b3606b</td></tr>
+<tr>
+<td title='testCases.TC_007Productcomparsionpage.verifyproductcomparsionpage()'><b>verifyproductcomparsionpage</b><br>Test class: testCases.TC_007Productcomparsionpage</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace436126678", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace436126678'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_007Productcomparsionpage@663411de</td></tr>
 <tr>
 <td title='testCases.Tc_011Editaccounttest.verifyeditaccount()'><b>verifyeditaccount</b><br>Test class: testCases.Tc_011Editaccounttest</td>
-<td></td>
-<td>10</td>
-<td>testCases.Tc_011Editaccounttest@3a320ade</td></tr>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace990413155", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace990413155'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+</pre></div></td>
+<td>0</td>
+<td>testCases.Tc_011Editaccounttest@59d2400d</td></tr>
 </table><p>
 </body>
 </html>

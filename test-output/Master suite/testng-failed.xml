@@ -8,18 +8,60 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="testCases.TC_002Logintest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifylogin"/>
+        </methods>
+      </class> <!-- testCases.TC_002Logintest -->
+      <class name="testCases.Tc_008Wishlistpage">
+        <methods>
+          <include name="verifywishlistpage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Tc_008Wishlistpage -->
+      <class name="testCases.Tc_001Accountregistration">
+        <methods>
+          <include name="verfiyacctregsiter"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Tc_001Accountregistration -->
+      <class name="testCases.Tc_012Orderhistorytest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyorderhistory"/>
+        </methods>
+      </class> <!-- testCases.Tc_012Orderhistorytest -->
       <class name="testCases.TC_007Productcomparsionpage">
         <methods>
           <include name="verifyproductcomparsionpage"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_007Productcomparsionpage -->
-      <class name="testCases.Tc_009Shoppingcarttest">
+      <class name="testCases.Tc_005Forgotpassword">
         <methods>
           <include name="setup"/>
-          <include name="verifyshoppingpage"/>
+          <include name="verifyforgotpassword"/>
         </methods>
-      </class> <!-- testCases.Tc_009Shoppingcarttest -->
+      </class> <!-- testCases.Tc_005Forgotpassword -->
+      <class name="testCases.Tc_004Logouttest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifylogout"/>
+        </methods>
+      </class> <!-- testCases.Tc_004Logouttest -->
+      <class name="testCases.Tc_006Searchproduct">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyaddtocart"/>
+        </methods>
+      </class> <!-- testCases.Tc_006Searchproduct -->
+      <class name="testCases.Tc_011Editaccounttest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyeditaccount"/>
+        </methods>
+      </class> <!-- testCases.Tc_011Editaccounttest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master suite] -->

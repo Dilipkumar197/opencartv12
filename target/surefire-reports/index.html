@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Master_suite" class="navigator-link">
-              <span class="suite-name border-passed">Master suite</span>
+              <span class="suite-name border-failed">Master suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,70 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">16 methods, 2 failed,  7 skipped,  7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Master_suite" class="hide-methods failed suite-Master_suite"> (hide)</a> <!-- hide-methods failed suite-Master_suite -->
+                      <a href="#" panel-name="suite-Master_suite" class="show-methods failed suite-Master_suite"> (show)</a> <!-- show-methods failed suite-Master_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Master_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_003LoginTestDDT" class="method navigator-link" hash-for-method="verifyloginDDT(abc123@gmail.com, test@123, Valid)">verifyloginDDT(abc123@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_003LoginTestDDT" class="method navigator-link" hash-for-method="verifyloginDDT(lakshmi@yahoo.com, Laxmi, Valid)">verifyloginDDT(lakshmi@yahoo.com, Laxmi, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Master_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Master_suite" class="hide-methods skipped suite-Master_suite"> (hide)</a> <!-- hide-methods skipped suite-Master_suite -->
+                      <a href="#" panel-name="suite-Master_suite" class="show-methods skipped suite-Master_suite"> (show)</a> <!-- show-methods skipped suite-Master_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Master_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_006Searchproduct" class="method navigator-link" hash-for-method="verifyaddtocart">verifyaddtocart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_011Editaccounttest" class="method navigator-link" hash-for-method="verifyeditaccount">verifyeditaccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_005Forgotpassword" class="method navigator-link" hash-for-method="verifyforgotpassword">verifyforgotpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_004Logouttest" class="method navigator-link" hash-for-method="verifylogout">verifylogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_012Orderhistorytest" class="method navigator-link" hash-for-method="verifyorderhistory">verifyorderhistory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_suite" title="testCases.TC_007Productcomparsionpage" class="method navigator-link" hash-for-method="verifyproductcomparsionpage">verifyproductcomparsionpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_008Wishlistpage" class="method navigator-link" hash-for-method="verifywishlistpage">verifywishlistpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Master_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,42 +171,32 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_006Searchproduct" class="method navigator-link" hash-for-method="verifyaddtocart">verifyaddtocart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_011Editaccounttest" class="method navigator-link" hash-for-method="verifyeditaccount">verifyeditaccount</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_005Forgotpassword" class="method navigator-link" hash-for-method="verifyforgotpassword">verifyforgotpassword</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Master_suite" title="testCases.TC_002Logintest" class="method navigator-link" hash-for-method="verifylogin">verifylogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_004Logouttest" class="method navigator-link" hash-for-method="verifylogout">verifylogout</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_003LoginTestDDT" class="method navigator-link" hash-for-method="verifyloginDDT(, King@123, Invalid)">verifyloginDDT(, King@123, Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_012Orderhistorytest" class="method navigator-link" hash-for-method="verifyorderhistory">verifyorderhistory</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_003LoginTestDDT" class="method navigator-link" hash-for-method="verifyloginDDT(laksh@yahoo.com, Lakshmi, Valid)">verifyloginDDT(laksh@yahoo.com, Lakshmi, Valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_suite" title="testCases.TC_007Productcomparsionpage" class="method navigator-link" hash-for-method="verifyproductcomparsionpage">verifyproductcomparsionpage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_003LoginTestDDT" class="method navigator-link" hash-for-method="verifyloginDDT(pavanoltraining@gmail.com, test@123, Valid)">verifyloginDDT(pavanoltraining@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_008Wishlistpage" class="method navigator-link" hash-for-method="verifywishlistpage">verifywishlistpage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_003LoginTestDDT" class="method navigator-link" hash-for-method="verifyloginDDT(laks@yahoo.com, xyz, Invalid)">verifyloginDDT(laks@yahoo.com, xyz, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_suite" title="testCases.Tc_003LoginTestDDT" class="method navigator-link" hash-for-method="verifyloginDDT(King123@gmail.com, , Invalid)">verifyloginDDT(King123@gmail.com, , Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Master_suite -->
@@ -158,6 +211,481 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Master_suite" class="panel Master_suite">
+          <div class="suite-Master_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.Tc_003LoginTestDDT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyloginDDT(abc123@gmail.com, test@123, Valid)">
+                  </a> <!-- verifyloginDDT(abc123@gmail.com, test@123, Valid) -->
+                  <span class="method-name">verifyloginDDT</span>
+                  <span class="parameters">(abc123@gmail.com,test@123,Valid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.Tc_003LoginTestDDT.verifyloginDDT(Tc_003LoginTestDDT.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyloginDDT(lakshmi@yahoo.com, Laxmi, Valid)">
+                  </a> <!-- verifyloginDDT(lakshmi@yahoo.com, Laxmi, Valid) -->
+                  <span class="method-name">verifyloginDDT</span>
+                  <span class="parameters">(lakshmi@yahoo.com,Laxmi,Valid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.Tc_003LoginTestDDT.verifyloginDDT(Tc_003LoginTestDDT.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_suite-class-failed -->
+          <div class="suite-Master_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.Tc_008Wishlistpage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifywishlistpage">
+                  </a> <!-- verifywishlistpage -->
+                  <span class="method-name">verifywishlistpage</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_suite-class-skipped -->
+          <div class="suite-Master_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.Tc_011Editaccounttest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyeditaccount">
+                  </a> <!-- verifyeditaccount -->
+                  <span class="method-name">verifyeditaccount</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_suite-class-skipped -->
+          <div class="suite-Master_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.Tc_004Logouttest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifylogout">
+                  </a> <!-- verifylogout -->
+                  <span class="method-name">verifylogout</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_suite-class-skipped -->
+          <div class="suite-Master_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.TC_007Productcomparsionpage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyproductcomparsionpage">
+                  </a> <!-- verifyproductcomparsionpage -->
+                  <span class="method-name">verifyproductcomparsionpage</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_suite-class-skipped -->
+          <div class="suite-Master_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.Tc_006Searchproduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyaddtocart">
+                  </a> <!-- verifyaddtocart -->
+                  <span class="method-name">verifyaddtocart</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_suite-class-skipped -->
+          <div class="suite-Master_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.Tc_005Forgotpassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyforgotpassword">
+                  </a> <!-- verifyforgotpassword -->
+                  <span class="method-name">verifyforgotpassword</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_suite-class-skipped -->
+          <div class="suite-Master_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.Tc_012Orderhistorytest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyorderhistory">
+                  </a> <!-- verifyorderhistory -->
+                  <span class="method-name">verifyorderhistory</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-BTP4EKH&apos;, ip: &apos;172.24.240.1&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 10}]}]
+Capabilities {browserName: chrome, platformName: Windows 10}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.Baseclass.setup(Baseclass.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 34 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_suite-class-skipped -->
           <div class="suite-Master_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -176,14 +704,47 @@
           <div class="suite-Master_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.Tc_008Wishlistpage</span>
+              <span class="class-name">testCases.Tc_003LoginTestDDT</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifywishlistpage">
-                  </a> <!-- verifywishlistpage -->
-                  <span class="method-name">verifywishlistpage</span>
+                  <a name="verifyloginDDT(, King@123, Invalid)">
+                  </a> <!-- verifyloginDDT(, King@123, Invalid) -->
+                  <span class="method-name">verifyloginDDT</span>
+                  <span class="parameters">(,King@123,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyloginDDT(laksh@yahoo.com, Lakshmi, Valid)">
+                  </a> <!-- verifyloginDDT(laksh@yahoo.com, Lakshmi, Valid) -->
+                  <span class="method-name">verifyloginDDT</span>
+                  <span class="parameters">(laksh@yahoo.com,Lakshmi,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyloginDDT(pavanoltraining@gmail.com, test@123, Valid)">
+                  </a> <!-- verifyloginDDT(pavanoltraining@gmail.com, test@123, Valid) -->
+                  <span class="method-name">verifyloginDDT</span>
+                  <span class="parameters">(pavanoltraining@gmail.com,test@123,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyloginDDT(laks@yahoo.com, xyz, Invalid)">
+                  </a> <!-- verifyloginDDT(laks@yahoo.com, xyz, Invalid) -->
+                  <span class="method-name">verifyloginDDT</span>
+                  <span class="parameters">(laks@yahoo.com,xyz,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyloginDDT(King123@gmail.com, , Invalid)">
+                  </a> <!-- verifyloginDDT(King123@gmail.com, , Invalid) -->
+                  <span class="method-name">verifyloginDDT</span>
+                  <span class="parameters">(King123@gmail.com,,Invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -199,96 +760,6 @@
                   <a name="verfiyacctregsiter">
                   </a> <!-- verfiyacctregsiter -->
                   <span class="method-name">verfiyacctregsiter</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master_suite-class-passed -->
-          <div class="suite-Master_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.Tc_004Logouttest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifylogout">
-                  </a> <!-- verifylogout -->
-                  <span class="method-name">verifylogout</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master_suite-class-passed -->
-          <div class="suite-Master_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_007Productcomparsionpage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyproductcomparsionpage">
-                  </a> <!-- verifyproductcomparsionpage -->
-                  <span class="method-name">verifyproductcomparsionpage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master_suite-class-passed -->
-          <div class="suite-Master_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.Tc_012Orderhistorytest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyorderhistory">
-                  </a> <!-- verifyorderhistory -->
-                  <span class="method-name">verifyorderhistory</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master_suite-class-passed -->
-          <div class="suite-Master_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.Tc_011Editaccounttest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyeditaccount">
-                  </a> <!-- verifyeditaccount -->
-                  <span class="method-name">verifyeditaccount</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master_suite-class-passed -->
-          <div class="suite-Master_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.Tc_005Forgotpassword</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyforgotpassword">
-                  </a> <!-- verifyforgotpassword -->
-                  <span class="method-name">verifyforgotpassword</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master_suite-class-passed -->
-          <div class="suite-Master_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.Tc_006Searchproduct</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyaddtocart">
-                  </a> <!-- verifyaddtocart -->
-                  <span class="method-name">verifyaddtocart</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -312,6 +783,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;testCases.Tc_001Accountregistration&quot;/&gt;
       &lt;class name=&quot;testCases.TC_002Logintest&quot;/&gt;
+      &lt;class name=&quot;testCases.Tc_003LoginTestDDT&quot;/&gt;
       &lt;class name=&quot;testCases.Tc_004Logouttest&quot;/&gt;
       &lt;class name=&quot;testCases.Tc_005Forgotpassword&quot;/&gt;
       &lt;class name=&quot;testCases.Tc_006Searchproduct&quot;/&gt;
@@ -332,7 +804,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (9 classes)</span>
+                <span class="test-name">Test (10 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -418,48 +890,76 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(16);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyeditaccount')
-data.setCell(0, 2, 'testCases.Tc_011Editaccounttest')
-data.setCell(0, 3, 10936);
+data.setCell(0, 1, 'verifyloginDDT')
+data.setCell(0, 2, 'testCases.Tc_003LoginTestDDT')
+data.setCell(0, 3, 12763);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyaddtocart')
-data.setCell(1, 2, 'testCases.Tc_006Searchproduct')
-data.setCell(1, 3, 7412);
+data.setCell(1, 1, 'verifyloginDDT')
+data.setCell(1, 2, 'testCases.Tc_003LoginTestDDT')
+data.setCell(1, 3, 11750);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifywishlistpage')
-data.setCell(2, 2, 'testCases.Tc_008Wishlistpage')
-data.setCell(2, 3, 6942);
+data.setCell(2, 1, 'verifyloginDDT')
+data.setCell(2, 2, 'testCases.Tc_003LoginTestDDT')
+data.setCell(2, 3, 11305);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyproductcomparsionpage')
-data.setCell(3, 2, 'testCases.TC_007Productcomparsionpage')
-data.setCell(3, 3, 6180);
+data.setCell(3, 1, 'verifyloginDDT')
+data.setCell(3, 2, 'testCases.Tc_003LoginTestDDT')
+data.setCell(3, 3, 11193);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verfiyacctregsiter')
-data.setCell(4, 2, 'testCases.Tc_001Accountregistration')
-data.setCell(4, 3, 5296);
+data.setCell(4, 1, 'verifyloginDDT')
+data.setCell(4, 2, 'testCases.Tc_003LoginTestDDT')
+data.setCell(4, 3, 11126);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyforgotpassword')
-data.setCell(5, 2, 'testCases.Tc_005Forgotpassword')
-data.setCell(5, 3, 4657);
+data.setCell(5, 1, 'verifyloginDDT')
+data.setCell(5, 2, 'testCases.Tc_003LoginTestDDT')
+data.setCell(5, 3, 8149);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyorderhistory')
-data.setCell(6, 2, 'testCases.Tc_012Orderhistorytest')
-data.setCell(6, 3, 4186);
+data.setCell(6, 1, 'verifyloginDDT')
+data.setCell(6, 2, 'testCases.Tc_003LoginTestDDT')
+data.setCell(6, 3, 5620);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifylogout')
-data.setCell(7, 2, 'testCases.Tc_004Logouttest')
-data.setCell(7, 3, 3479);
+data.setCell(7, 1, 'verfiyacctregsiter')
+data.setCell(7, 2, 'testCases.Tc_001Accountregistration')
+data.setCell(7, 3, 2637);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'verifylogin')
 data.setCell(8, 2, 'testCases.TC_002Logintest')
-data.setCell(8, 3, 2067);
+data.setCell(8, 3, 2587);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyaddtocart')
+data.setCell(9, 2, 'testCases.Tc_006Searchproduct')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifywishlistpage')
+data.setCell(10, 2, 'testCases.Tc_008Wishlistpage')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyorderhistory')
+data.setCell(11, 2, 'testCases.Tc_012Orderhistorytest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifylogout')
+data.setCell(12, 2, 'testCases.Tc_004Logouttest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyforgotpassword')
+data.setCell(13, 2, 'testCases.Tc_005Forgotpassword')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyproductcomparsionpage')
+data.setCell(14, 2, 'testCases.TC_007Productcomparsionpage')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyeditaccount')
+data.setCell(15, 2, 'testCases.Tc_011Editaccounttest')
+data.setCell(15, 3, 0);
 window.suiteTableData['Master_suite']= { tableData: data, tableDiv: 'times-div-Master_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 51 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Master_suite">
               </div> <!-- times-div-Master_suite -->
             </div> <!-- times-div -->
@@ -492,96 +992,121 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verfiyacctregsiter</span>
-                <span class="method-start">5486 ms</span>
+                <span class="method-start">5456 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_002Logintest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">10816 ms</span>
+                <span class="method-start">8139 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifylogin</span>
-                <span class="method-start">16214 ms</span>
+                <span class="method-start">10304 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Tc_003LoginTestDDT</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">12895 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyloginDDT(pavanoltraining@gmail.com, test@123, Valid)</span>
+                <span class="method-start">20717 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyloginDDT(lakshmi@yahoo.com, Laxmi, Valid)</span>
+                <span class="method-start">28870 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyloginDDT(laksh@yahoo.com, Lakshmi, Valid)</span>
+                <span class="method-start">42015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyloginDDT(laks@yahoo.com, xyz, Invalid)</span>
+                <span class="method-start">47637 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyloginDDT(abc123@gmail.com, test@123, Valid)</span>
+                <span class="method-start">59389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyloginDDT(, King@123, Invalid)</span>
+                <span class="method-start">70706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyloginDDT(King123@gmail.com, , Invalid)</span>
+                <span class="method-start">81833 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc_004Logouttest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">18287 ms</span>
+                <span class="method-start">93140 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifylogout</span>
-                <span class="method-start">28057 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc_005Forgotpassword</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">31543 ms</span>
+                <span class="method-start">93430 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifyforgotpassword</span>
-                <span class="method-start">38396 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc_006Searchproduct</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">43060 ms</span>
+                <span class="method-start">93454 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifyaddtocart</span>
-                <span class="method-start">59506 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_007Productcomparsionpage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">66921 ms</span>
+                <span class="method-start">93511 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifyproductcomparsionpage</span>
-                <span class="method-start">73632 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc_008Wishlistpage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">79819 ms</span>
+                <span class="method-start">93566 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifywishlistpage</span>
-                <span class="method-start">85222 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc_011Editaccounttest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">92166 ms</span>
+                <span class="method-start">93655 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifyeditaccount</span>
-                <span class="method-start">121993 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc_012Orderhistorytest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">132932 ms</span>
+                <span class="method-start">93706 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifyorderhistory</span>
-                <span class="method-start">145533 ms</span>
-              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

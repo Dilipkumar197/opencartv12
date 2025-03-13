@@ -60,7 +60,7 @@ public class Baseclass {
 		{
 			DesiredCapabilities capabilities=new DesiredCapabilities();
 			
-			//os
+		
 			if(os.equalsIgnoreCase("windows"))
 			{
 				capabilities.setPlatform(Platform.WIN10);
@@ -90,6 +90,11 @@ public class Baseclass {
 			}
 			
 			driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
+			
+			// URL hubUrl = new URL("http://localhost:4444/wd/hub");
+	           // driver = new RemoteWebDriver(hubUrl, capabilities); 
+			
+			
 		}
 		
 				
