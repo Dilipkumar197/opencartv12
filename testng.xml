@@ -21,7 +21,9 @@
     
        <!--   <class name="testCases.Tc_011Editaccounttest"/> -->
       
-        <class name="testCases.Tc_009Shoppingcarttest"/> 
+        <!--    <class name="testCases.Tc_009Shoppingcarttest"/> -->
+        
+          <class name="testCases.Tc_003LoginTestDDT"/> 
         
         
     </classes>
