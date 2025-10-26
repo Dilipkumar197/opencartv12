@@ -23,8 +23,8 @@ public class TC_002Logintest extends Baseclass {
 
 			// Login
 			Loginpage lp = new Loginpage(driver);
-			lp.clickonemailadress(p.getProperty("email"));
-			lp.clickonpassword(p.getProperty("pass"));
+			lp.clickonemailadress(p.getProperty("dilipkumar197@gmail.com"));
+			lp.clickonpassword(p.getProperty("deepu@1234"));
 			lp.clickonlogin();
 
 			// Myaccount
